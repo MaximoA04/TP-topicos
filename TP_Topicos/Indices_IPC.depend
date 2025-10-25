@@ -1,0 +1,390 @@
+# depslib dependency file v1.0
+1760885144 source:/home/agustin/Documentos/unlam/Programacion-UNLAM/Topicos/TP/string.c
+	"includes/string.h"
+	<stddef.h>
+	<stdio.h>
+	"string.h"
+
+1761256603 
+
+1760928354 source:/home/agustin/Documentos/unlam/Programacion-UNLAM/Topicos/TP/main.c
+	<stddef.h>
+	<stdio.h>
+	"includes/vector.h"
+	"includes/divisiones.h"
+	"includes/aperturas.h"
+
+1761170163 aperturas.h"
+
+1760885144 /home/agustin/Documentos/unlam/Programacion-UNLAM/Topicos/TP/includes/string.h
+	<stddef.h>
+	<stdbool.h>
+	<string.h>
+
+1760919177 /home/agustin/Documentos/unlam/Programacion-UNLAM/Topicos/TP/includes/vector.h
+	<stdbool.h>
+	<stddef.h>
+	<stdio.h>
+
+1760919156 source:/home/agustin/Documentos/unlam/Programacion-UNLAM/Topicos/TP/vector.c
+	<stddef.h>
+	"includes/vector.h"
+	"includes/string.h"
+	<stdlib.h>
+	<stdio.h>
+	<unistd.h>
+	<string.h>
+	<time.h>
+
+1760750729 source:/home/agustin/Documentos/unlam/Topicos/TP/string.c
+	"includes/string.h"
+	<stddef.h>
+	<stdio.h>
+	"string.h"
+
+1760754312 source:/home/agustin/Documentos/unlam/Topicos/TP/vector.c
+	<stddef.h>
+	"includes/vector.h"
+	"includes/string.h"
+	<stdlib.h>
+	<stdio.h>
+	<unistd.h>
+	<string.h>
+	<time.h>
+
+1760754343 /home/agustin/Documentos/unlam/Topicos/TP/includes/vector.h
+	<stdbool.h>
+	<stddef.h>
+	<stdio.h>
+
+1760749974 /home/agustin/Documentos/unlam/Topicos/TP/includes/string.h
+	<stddef.h>
+	<stdbool.h>
+	<string.h>
+
+1760755052 source:/home/agustin/Documentos/unlam/Topicos/TP/main.c
+	<stddef.h>
+	<stdio.h>
+	"includes/string.h"
+	"includes/vector.h"
+	"includes/divisiones.h"
+
+1760755052 divisiones.h"
+
+1760928911 source:/home/agustin/Documentos/unlam/Programacion-UNLAM/Topicos/TP/divisiones.c
+	"includes/comun.h"
+	"includes/string.h"
+	"includes/divisiones.h"
+	"includes/vector.h"
+
+1761255263 vector.h"
+
+1760928651 /home/agustin/Documentos/unlam/Programacion-UNLAM/Topicos/TP/includes/divisiones.h
+	<stdlib.h>
+	<stddef.h>
+	<stdbool.h>
+	"string.h"
+	"comun.h"
+	"vector.h"
+
+1760755190 source:/home/agustin/Documentos/unlam/Topicos/TP/divisiones.c
+	"includes/string.h"
+	"includes/divisiones.h"
+	"includes/vector.h"
+
+1760754770 /home/agustin/Documentos/unlam/Topicos/TP/includes/divisiones.h
+	<stdlib.h>
+	<stddef.h>
+	<stdbool.h>
+	"string.h"
+	"vector.h"
+
+1760928504 /home/agustin/Documentos/unlam/Programacion-UNLAM/Topicos/TP/includes/aperturas.h
+	<stdlib.h>
+	<stddef.h>
+	<stdbool.h>
+	"string.h"
+	"vector.h"
+	"comun.h"
+
+1760926033 /home/agustin/Documentos/unlam/Programacion-UNLAM/Topicos/TP/includes/comun.h
+	<stdlib.h>
+	<stddef.h>
+	<stdbool.h>
+	"string.h"
+	"vector.h"
+
+1760927720 source:/home/agustin/Documentos/unlam/Programacion-UNLAM/Topicos/TP/aperturas.c
+	"includes/aperturas.h"
+	"includes/comun.h"
+	"includes/string.h"
+	"includes/vector.h"
+
+1760926149 source:/home/agustin/Documentos/unlam/Programacion-UNLAM/Topicos/TP/comun.c
+	"includes/comun.h"
+
+1761254751 comun.h"
+
+1761079418 source:/home/maximo/Descargas/TP-Topicos-de-Programacion-dev_agus/aperturas.c
+	"includes/aperturas.h"
+	"includes/comun.h"
+	"includes/string.h"
+	"includes/vector.h"
+
+1760929400 /home/maximo/Descargas/TP-Topicos-de-Programacion-dev_agus/includes/aperturas.h
+	<stdlib.h>
+	<stddef.h>
+	<stdbool.h>
+	"string.h"
+	"vector.h"
+	"comun.h"
+
+1761078830 /home/maximo/Descargas/TP-Topicos-de-Programacion-dev_agus/includes/string.h
+	<stddef.h>
+	<stdbool.h>
+	<string.h>
+
+1761080684 /home/maximo/Descargas/TP-Topicos-de-Programacion-dev_agus/includes/vector.h
+	<stdbool.h>
+	<stddef.h>
+	<stdio.h>
+
+1761089441 /home/maximo/Descargas/TP-Topicos-de-Programacion-dev_agus/includes/comun.h
+	"string.h"
+	"vector.h"
+
+1760929400 source:/home/maximo/Descargas/TP-Topicos-de-Programacion-dev_agus/comun.c
+	"includes/comun.h"
+
+1761090832 source:/home/maximo/Descargas/TP-Topicos-de-Programacion-dev_agus/divisiones.c
+	<stdlib.h>
+	<stddef.h>
+	<stdbool.h>
+	"includes/comun.h"
+	"includes/string.h"
+	"includes/divisiones.h"
+	"includes/vector.h"
+
+1761089476 /home/maximo/Descargas/TP-Topicos-de-Programacion-dev_agus/includes/divisiones.h
+	"string.h"
+	"comun.h"
+	"vector.h"
+
+1761078768 source:/home/maximo/Descargas/TP-Topicos-de-Programacion-dev_agus/string.c
+	"includes/string.h"
+	<stddef.h>
+	<stdio.h>
+	"string.h"
+
+1761084496 source:/home/maximo/Descargas/TP-Topicos-de-Programacion-dev_agus/vector.c
+	<stddef.h>
+	<stdlib.h>
+	<stdio.h>
+	<unistd.h>
+	<string.h>
+	<time.h>
+	"includes/vector.h"
+	"includes/string.h"
+
+1761244957 string.h"
+
+1761091388 source:/home/maximo/Descargas/TP-Topicos-de-Programacion-dev_agus/main.c
+	<stddef.h>
+	<stdio.h>
+	"includes/vector.h"
+	"includes/divisiones.h"
+	"includes/aperturas.h"
+
+1761169693 source:c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp-topicos-main\tp-topicos\aperturas.c
+	"includes/aperturas.h"
+	"includes/comun.h"
+	"includes/string.h"
+	"includes/vector.h"
+
+1761168384 c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp-topicos-main\tp-topicos\includes\aperturas.h
+	<stdlib.h>
+	<stddef.h>
+	<stdbool.h>
+	"string.h"
+	"vector.h"
+	"comun.h"
+
+1761166245 c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp-topicos-main\tp-topicos\includes\string.h
+	<stddef.h>
+	<stdbool.h>
+	<string.h>
+
+1761159467 c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp-topicos-main\tp-topicos\includes\vector.h
+	<stdbool.h>
+	<stddef.h>
+	<stdio.h>
+
+1761164506 c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp-topicos-main\tp-topicos\includes\comun.h
+	"string.h"
+	"vector.h"
+
+1761164493 source:c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp-topicos-main\tp-topicos\comun.c
+	"includes/comun.h"
+
+1761166899 source:c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp-topicos-main\tp-topicos\divisiones.c
+	<stdlib.h>
+	<stddef.h>
+	<stdbool.h>
+	"includes/comun.h"
+	"includes/string.h"
+	"includes/divisiones.h"
+	"includes/vector.h"
+
+1761166816 c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp-topicos-main\tp-topicos\includes\divisiones.h
+	"string.h"
+	"comun.h"
+	"vector.h"
+
+1761166254 source:c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp-topicos-main\tp-topicos\string.c
+	"includes/string.h"
+	<stddef.h>
+	<stdio.h>
+	"string.h"
+
+1761167884 source:c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp-topicos-main\tp-topicos\vector.c
+	<stddef.h>
+	<stdlib.h>
+	<stdio.h>
+	<unistd.h>
+	<string.h>
+	<time.h>
+	"includes/vector.h"
+	"includes/string.h"
+
+1761170163 source:c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp-topicos-main\tp-topicos\main.c
+	<stddef.h>
+	<stdio.h>
+	<locale.h>
+	"includes/vector.h"
+	"includes/divisiones.h"
+	"includes/aperturas.h"
+
+1761255263 source:c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp-topicos\main.c
+	<stddef.h>
+	<stdio.h>
+	<locale.h>
+	"includes/divisiones.h"
+	"includes/aperturas.h"
+	"includes/vector.h"
+
+1761248202 c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp-topicos\includes\vector.h
+	<stdbool.h>
+	<stddef.h>
+	<stdio.h>
+
+1761256698 c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp-topicos\includes\divisiones.h
+	"string.h"
+	"comun.h"
+	"vector.h"
+
+1761166245 c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp-topicos\includes\string.h
+	<stddef.h>
+	<stdbool.h>
+	<string.h>
+
+1761256752 c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp-topicos\includes\comun.h
+	<stdlib.h>
+	"string.h"
+	"vector.h"
+
+1761256603 c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp-topicos\includes\aperturas.h
+	<stdlib.h>
+	<stddef.h>
+	<stdbool.h>
+	"string.h"
+	"vector.h"
+	"comun.h"
+
+1761244957 source:c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp-topicos\string.c
+	<stddef.h>
+	<stdio.h>
+	"includes/string.h"
+
+1761256590 source:c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp-topicos\aperturas.c
+	<ctype.h>
+	"includes/aperturas.h"
+	"includes/vector.h"
+	"includes/comun.h"
+
+1761244858 source:c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp-topicos\comun.c
+	"includes/comun.h"
+
+1761256687 source:c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp-topicos\divisiones.c
+	<stdlib.h>
+	<stddef.h>
+	<stdbool.h>
+	<ctype.h>
+	"includes/divisiones.h"
+	"includes/vector.h"
+	"includes/comun.h"
+
+1761254751 source:c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp-topicos\vector.c
+	<stdlib.h>
+	<stddef.h>
+	<string.h>
+	<time.h>
+	"includes/vector.h"
+	"includes/comun.h"
+
+1761350795 source:/home/maximo/Descargas/TP_Topicos/aperturas.c
+	"includes/aperturas.h"
+	"includes/vector.h"
+	"includes/comun.h"
+
+1761350855 /home/maximo/Descargas/TP_Topicos/includes/aperturas.h
+	<stdlib.h>
+	<stddef.h>
+	<stdbool.h>
+	"string.h"
+	"vector.h"
+	"comun.h"
+	<ctype.h>
+
+1761328943 /home/maximo/Descargas/TP_Topicos/includes/vector.h
+	<stdbool.h>
+	<stddef.h>
+	<stdio.h>
+
+1761340591 /home/maximo/Descargas/TP_Topicos/includes/comun.h
+	<stdlib.h>
+	"string.h"
+	"vector.h"
+
+1761347442 source:/home/maximo/Descargas/TP_Topicos/comun.c
+	"includes/comun.h"
+
+1761350425 source:/home/maximo/Descargas/TP_Topicos/divisiones.c
+	<stdlib.h>
+	<stddef.h>
+	<stdbool.h>
+	<ctype.h>
+	"includes/divisiones.h"
+	"includes/vector.h"
+	"includes/comun.h"
+
+1761350222 /home/maximo/Descargas/TP_Topicos/includes/divisiones.h
+	"string.h"
+	"comun.h"
+	"vector.h"
+
+1761351152 source:/home/maximo/Descargas/TP_Topicos/main.c
+	<stddef.h>
+	<stdio.h>
+	<locale.h>
+	"includes/divisiones.h"
+	"includes/aperturas.h"
+	"includes/vector.h"
+
+1761347432 source:/home/maximo/Descargas/TP_Topicos/vector.c
+	<stdlib.h>
+	<stddef.h>
+	<string.h>
+	<time.h>
+	"includes/vector.h"
+	"includes/comun.h"
+

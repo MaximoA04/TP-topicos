@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="main.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2025" topLine="43" />
+		</Cursor>
+		<Folding>
+			<Collapse line="52" />
+			<Collapse line="59" />
+			<Collapse line="66" />
+			<Collapse line="73" />
+			<Collapse line="81" />
+			<Collapse line="93" />
+			<Collapse line="102" />
+			<Collapse line="111" />
+		</Folding>
+	</File>
+	<File name="includes/divisiones.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2259" topLine="33" />
+		</Cursor>
+		<Folding>
+			<Collapse line="17" />
+			<Collapse line="29" />
+			<Collapse line="38" />
+			<Collapse line="46" />
+			<Collapse line="56" />
+		</Folding>
+	</File>
+	<File name="includes/aperturas.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1243" topLine="9" />
+		</Cursor>
+		<Folding>
+			<Collapse line="33" />
+		</Folding>
+	</File>
+	<File name="comun.c" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2211" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="3" />
+			<Collapse line="10" />
+			<Collapse line="21" />
+			<Collapse line="67" />
+		</Folding>
+	</File>
+	<File name="includes/comun.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="423" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="divisiones.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="180" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="13" />
+			<Collapse line="31" />
+			<Collapse line="62" />
+			<Collapse line="79" />
+			<Collapse line="91" />
+			<Collapse line="104" />
+			<Collapse line="125" />
+			<Collapse line="177" />
+			<Collapse line="201" />
+			<Collapse line="251" />
+			<Collapse line="273" />
+			<Collapse line="366" />
+			<Collapse line="383" />
+			<Collapse line="391" />
+			<Collapse line="398" />
+			<Collapse line="407" />
+			<Collapse line="413" />
+			<Collapse line="419" />
+			<Collapse line="425" />
+			<Collapse line="431" />
+			<Collapse line="437" />
+			<Collapse line="443" />
+		</Folding>
+	</File>
+	<File name="aperturas.c" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1015" topLine="20" />
+		</Cursor>
+		<Folding>
+			<Collapse line="88" />
+			<Collapse line="102" />
+			<Collapse line="133" />
+			<Collapse line="159" />
+			<Collapse line="165" />
+			<Collapse line="237" />
+			<Collapse line="246" />
+			<Collapse line="252" />
+		</Folding>
+	</File>
+	<File name="vector.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7778" topLine="68" />
+		</Cursor>
+		<Folding>
+			<Collapse line="11" />
+			<Collapse line="25" />
+			<Collapse line="39" />
+			<Collapse line="51" />
+			<Collapse line="77" />
+			<Collapse line="100" />
+			<Collapse line="119" />
+			<Collapse line="166" />
+			<Collapse line="179" />
+			<Collapse line="195" />
+			<Collapse line="224" />
+			<Collapse line="232" />
+			<Collapse line="251" />
+			<Collapse line="261" />
+			<Collapse line="282" />
+			<Collapse line="305" />
+			<Collapse line="325" />
+			<Collapse line="332" />
+			<Collapse line="341" />
+			<Collapse line="346" />
+			<Collapse line="354" />
+			<Collapse line="362" />
+			<Collapse line="379" />
+			<Collapse line="395" />
+			<Collapse line="411" />
+			<Collapse line="416" />
+			<Collapse line="422" />
+			<Collapse line="440" />
+			<Collapse line="460" />
+			<Collapse line="484" />
+			<Collapse line="495" />
+		</Folding>
+	</File>
+	<File name="includes/vector.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="863" topLine="21" />
+		</Cursor>
+		<Folding>
+			<Collapse line="18" />
+			<Collapse line="26" />
+		</Folding>
+	</File>
+</CodeBlocks_layout_file>
