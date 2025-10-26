@@ -94,11 +94,11 @@ Codigo;Descripcion_aperturas;Clasificador;Periodo;Indice_IPC;v_m_IPC;v_i_a_IPC;R
 03.2;Calzado;Grupos;201612;100;NA;NA;Noroeste
 03.2;Calzado;Grupos;201612;100;NA;NA;Cuyo
 03.2;Calzado;Grupos;201612;100;NA;NA;Patagonia
-04.1;Alquiler de la vivienda y gastos conexos;Grupos;201612;100;NA;NA;Pampeana
-04.1;Alquiler de la vivienda y gastos conexos;Grupos;201612;100;NA;NA;Noreste
-04.1;Alquiler de la vivienda y gastos conexos;Grupos;201612;100;NA;NA;Noroeste
-04.1;Alquiler de la vivienda y gastos conexos;Grupos;201612;100;NA;NA;Cuyo
-04.1;Alquiler de la vivienda y gastos conexos;Grupos;201612;100;NA;NA;Patagonia
+04.1;Alquiler de la vivienda;Grupos;201612;100;NA;NA;Pampeana
+04.1;Alquiler de la vivienda;Grupos;201612;100;NA;NA;Noreste
+04.1;Alquiler de la vivienda;Grupos;201612;100;NA;NA;Noroeste
+04.1;Alquiler de la vivienda;Grupos;201612;100;NA;NA;Cuyo
+04.1;Alquiler de la vivienda;Grupos;201612;100;NA;NA;Patagonia
 04.5;Electricidad, gas y otros combustibles;Grupos;201612;100;NA;NA;Pampeana
 04.5;Electricidad, gas y otros combustibles;Grupos;201612;100;NA;NA;Noreste
 04.5;Electricidad, gas y otros combustibles;Grupos;201612;100;NA;NA;Noroeste

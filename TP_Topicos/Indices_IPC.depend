@@ -331,7 +331,7 @@
 	"includes/vector.h"
 	"includes/comun.h"
 
-1761350795 source:/home/maximo/Descargas/TP_Topicos/aperturas.c
+1761491851 source:/home/maximo/Descargas/TP_Topicos/aperturas.c
 	"includes/aperturas.h"
 	"includes/vector.h"
 	"includes/comun.h"
@@ -372,7 +372,7 @@
 	"comun.h"
 	"vector.h"
 
-1761351152 source:/home/maximo/Descargas/TP_Topicos/main.c
+1761491948 source:/home/maximo/Descargas/TP_Topicos/main.c
 	<stddef.h>
 	<stdio.h>
 	<locale.h>

@@ -14,7 +14,7 @@ int main()
 {
     // setlocale(LC_ALL, "es_AR.UTF-8");
     int code = 0;
-/*
+
     /// Primera Parte: IPC Divisiones
     Vector v;
     FILE *f = fopen(DIVISIONES, "r");
@@ -45,7 +45,7 @@ int main()
     calcularIPCPromedio(&v);
 
     vectorDestruir(&v);
-*/
+
     /// Segunda Parte: Aperturas y Alquileres
     Vector v2, vA;
     FILE *f2 = fopen(APERTURAS, "r");
@@ -87,7 +87,7 @@ int main()
         return code;
     }
     fclose(f2);
-
+    //vectorMostrar(&v2,mostrarIpcAp);
     calcularAlquileres(&v2, &vA);
 
     if ((code = vectorGuardarAArchivoBIN(&vA, alquileres)) != TODO_OK)
@@ -116,9 +116,6 @@ int main()
         fclose(alquileres);
         return code;
     }
-
-    puts("\nVariación de alquileres desde archivo:");
-    vectorMostrar(&vA2, mostrarAperturas);
 
     vectorDestruir(&v2);
     vectorDestruir(&vA);

@@ -38,7 +38,7 @@ void calcularAlquileres(Vector *v, Vector *vA)
 
     mostrarTotales(vA, f.monto);
 }
-///falla
+
 bool clasificarAperturasIPC(Vector *v, const filtroIPC *f, Vector *vA)
 {
     if (!v || !f || !vA)
@@ -46,10 +46,8 @@ bool clasificarAperturasIPC(Vector *v, const filtroIPC *f, Vector *vA)
 
     VectorIterador it;
     vectorIteradorCrear(&it, v);
+    vectorIteradorPrimero(&it);
     float indiceBase = 0.0f;
-    ///falla aca
-    if (formatearFecha2((char *)f->fechaDesde))
-        return false;
 
     while (!vectorIteradorFin(&it))
     {
@@ -59,7 +57,6 @@ bool clasificarAperturasIPC(Vector *v, const filtroIPC *f, Vector *vA)
             strcmp(s->region, f->region) == 0 &&
             strcmp(s->periodo, f->fechaDesde) >= 0)
         {
-            printf("\n\nalgo");
             aperturas a;
             strcpy(a.periodo, s->periodo);
             a.indice = atof(s->indice_ipc);
@@ -158,8 +155,7 @@ void selecPeriodoAp(void *f)
 
 bool filtrarAlquiler(const ipc_ap *s, const filtroIPC *f)
 {
-    return strcmp(s->desc, "Alquiler de la vivienda") == 0 &&
-           strcmp(s->code, "04.1.1") == 0;
+    return strcasecmp(s->desc, "Alquiler de la vivienda") == 0;
 }
 
 bool formatearAperturas(char *c, void *elem)
@@ -256,6 +252,7 @@ void mostrarTotales(const Vector *vA, float montoInicial)
 
     VectorIterador it;
     vectorIteradorCrear(&it, (Vector *)vA);
+    vectorIteradorPrimero(&it);
 
     aperturas *ultimo = NULL;
     while (!vectorIteradorFin(&it))
