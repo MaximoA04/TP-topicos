@@ -25,9 +25,9 @@ void calcularAlquileres(Vector *v, Vector *vA)
     printf("\nTabla alquiler ajustada por IPC:\n");
     vectorMostrar(vA, mostrarAperturas);
 
-    guardarTablaBinario(vA, "tabla_alquileres.dat");
+    guardarTablaBinario(vA, ALQUILERES);
     Vector vLectura;
-    if (leerTablaBinario(&vLectura, "tabla_alquileres.dat"))
+    if (leerTablaBinario(&vLectura, ALQUILERES))
     {
         printf("\nTabla desde archivo binario:\n");
         vectorMostrar(&vLectura, mostrarAperturas);

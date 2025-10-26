@@ -5,6 +5,11 @@
 #include "string.h"
 #include "vector.h"
 
+//archivos
+#define DIVISIONES "./otros/serie_ipc_divisiones.csv"
+#define APERTURAS "./otros/serie_ipc_aperturas.csv"
+#define ALQUILERES "./otros/alquileres.dat"
+
 // Tamaños
 #define TAM_INIT 10
 #define TAM 100

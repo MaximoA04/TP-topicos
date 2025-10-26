@@ -6,10 +6,6 @@
 #include "includes/aperturas.h"
 #include "includes/vector.h"
 
-#define DIVISIONES "./otros/serie_ipc_divisiones copy.csv"
-#define APERTURAS "./otros/serie_ipc_aperturas copy.csv"
-#define ALQUILERES "./otros/alquileres.dat"
-
 int main()
 {
     // setlocale(LC_ALL, "es_AR.UTF-8");

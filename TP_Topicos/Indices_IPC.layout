@@ -2,6 +2,26 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
+	<File name="includes/comun.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="106" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="26" />
+		</Folding>
+	</File>
+	<File name="includes/divisiones.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2259" topLine="33" />
+		</Cursor>
+		<Folding>
+			<Collapse line="17" />
+			<Collapse line="29" />
+			<Collapse line="38" />
+			<Collapse line="46" />
+			<Collapse line="56" />
+		</Folding>
+	</File>
 	<File name="divisiones.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="180" topLine="0" />
@@ -31,9 +51,43 @@
 			<Collapse line="443" />
 		</Folding>
 	</File>
+	<File name="comun.c" open="1" top="1" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2559" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="3" />
+			<Collapse line="10" />
+			<Collapse line="21" />
+			<Collapse line="67" />
+			<Collapse line="96" />
+		</Folding>
+	</File>
+	<File name="includes/aperturas.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="924" topLine="9" />
+		</Cursor>
+		<Folding>
+			<Collapse line="21" />
+			<Collapse line="33" />
+		</Folding>
+	</File>
+	<File name="main.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="155" topLine="18" />
+		</Cursor>
+		<Folding>
+			<Collapse line="17" />
+			<Collapse line="23" />
+			<Collapse line="29" />
+			<Collapse line="89" />
+			<Collapse line="98" />
+			<Collapse line="107" />
+		</Folding>
+	</File>
 	<File name="aperturas.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="3131" topLine="0" />
+			<Cursor1 position="712" topLine="0" />
 		</Cursor>
 		<Folding>
 			<Collapse line="7" />
@@ -46,18 +100,6 @@
 			<Collapse line="233" />
 			<Collapse line="242" />
 			<Collapse line="248" />
-		</Folding>
-	</File>
-	<File name="comun.c" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2165" topLine="0" />
-		</Cursor>
-		<Folding>
-			<Collapse line="3" />
-			<Collapse line="10" />
-			<Collapse line="21" />
-			<Collapse line="67" />
-			<Collapse line="96" />
 		</Folding>
 	</File>
 	<File name="includes/vector.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -105,48 +147,6 @@
 			<Collapse line="460" />
 			<Collapse line="484" />
 			<Collapse line="495" />
-		</Folding>
-	</File>
-	<File name="includes/aperturas.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="687" topLine="9" />
-		</Cursor>
-		<Folding>
-			<Collapse line="21" />
-			<Collapse line="33" />
-		</Folding>
-	</File>
-	<File name="includes/comun.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="423" topLine="1" />
-		</Cursor>
-		<Folding>
-			<Collapse line="21" />
-		</Folding>
-	</File>
-	<File name="main.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1792" topLine="45" />
-		</Cursor>
-		<Folding>
-			<Collapse line="21" />
-			<Collapse line="27" />
-			<Collapse line="33" />
-			<Collapse line="93" />
-			<Collapse line="102" />
-			<Collapse line="111" />
-		</Folding>
-	</File>
-	<File name="includes/divisiones.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2259" topLine="33" />
-		</Cursor>
-		<Folding>
-			<Collapse line="17" />
-			<Collapse line="29" />
-			<Collapse line="38" />
-			<Collapse line="46" />
-			<Collapse line="56" />
 		</Folding>
 	</File>
 </CodeBlocks_layout_file>

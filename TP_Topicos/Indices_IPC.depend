@@ -331,7 +331,7 @@
 	"includes/vector.h"
 	"includes/comun.h"
 
-1761491851 source:/home/maximo/Descargas/TP_Topicos/aperturas.c
+1761492731 source:/home/maximo/Descargas/TP_Topicos/aperturas.c
 	"includes/aperturas.h"
 	"includes/vector.h"
 	"includes/comun.h"
@@ -350,7 +350,7 @@
 	<stddef.h>
 	<stdio.h>
 
-1761340591 /home/maximo/Descargas/TP_Topicos/includes/comun.h
+1761492687 /home/maximo/Descargas/TP_Topicos/includes/comun.h
 	<stdlib.h>
 	"string.h"
 	"vector.h"
@@ -372,7 +372,7 @@
 	"comun.h"
 	"vector.h"
 
-1761491948 source:/home/maximo/Descargas/TP_Topicos/main.c
+1761492672 source:/home/maximo/Descargas/TP_Topicos/main.c
 	<stddef.h>
 	<stdio.h>
 	<locale.h>
