@@ -160,10 +160,21 @@ bool filtrarAlquiler(const ipc_ap *s, const filtroIPC *f)
 
 bool formatearAperturas(char *c, void *elem)
 {
+    if (!c || !elem)
+        return false;
+
     ipc_ap *s = (ipc_ap *)elem;
     char *act;
+    char *p = c;
 
-    // eliminar salto de linea final
+    while (*p)
+    {
+        if (*p == '"')
+            memmove(p, p + 1, strlen(p));
+        else
+            p++;
+    }
+    // eliminar salto de línea final
     act = strrchr(c, '\n');
     if (act)
         *act = '\0';
@@ -172,29 +183,33 @@ bool formatearAperturas(char *c, void *elem)
     act = strrchr(c, ';');
     if (!act)
         return false;
-    strcpy(s->region, act + 1);
+    strncpy(s->region, act + 1, sizeof(s->region) - 1);
+    s->region[sizeof(s->region) - 1] = '\0';
     *act = '\0';
 
     // v_a_ipc
     act = strrchr(c, ';');
     if (!act)
         return false;
-    strcpy(s->v_a_ipc, act + 1);
+    strncpy(s->v_a_ipc, act + 1, sizeof(s->v_a_ipc) - 1);
+    s->v_a_ipc[sizeof(s->v_a_ipc) - 1] = '\0';
     *act = '\0';
 
     // v_m_ipc
     act = strrchr(c, ';');
     if (!act)
         return false;
-    strcpy(s->v_m_ipc, act + 1);
+    strncpy(s->v_m_ipc, act + 1, sizeof(s->v_m_ipc) - 1);
+    s->v_m_ipc[sizeof(s->v_m_ipc) - 1] = '\0';
     *act = '\0';
 
     // indice_ipc
     act = strrchr(c, ';');
     if (!act)
         return false;
-    strcpy(s->indice_ipc, act + 1);
-    for (char *p = s->indice_ipc; *p; p++)
+    strncpy(s->indice_ipc, act + 1, sizeof(s->indice_ipc) - 1);
+    s->indice_ipc[sizeof(s->indice_ipc) - 1] = '\0';
+    for (p = s->indice_ipc; *p; p++)
         if (*p == ',')
             *p = '.';
     *act = '\0';
@@ -203,7 +218,8 @@ bool formatearAperturas(char *c, void *elem)
     act = strrchr(c, ';');
     if (!act)
         return false;
-    strcpy(s->periodo, act + 1);
+    strncpy(s->periodo, act + 1, sizeof(s->periodo) - 1);
+    s->periodo[sizeof(s->periodo) - 1] = '\0';
     if (!formatearFecha2(s->periodo))
         return false;
     *act = '\0';
@@ -212,21 +228,27 @@ bool formatearAperturas(char *c, void *elem)
     act = strrchr(c, ';');
     if (!act)
         return false;
-    strcpy(s->clasificador, act + 1);
+    strncpy(s->clasificador, act + 1, sizeof(s->clasificador) - 1);
+    s->clasificador[sizeof(s->clasificador) - 1] = '\0';
     *act = '\0';
 
     // desc
     act = strrchr(c, ';');
     if (!act)
         return false;
-    strcpy(s->desc, act + 1);
+    strncpy(s->desc, act + 1, sizeof(s->desc) - 1);
+    s->desc[sizeof(s->desc) - 1] = '\0';
+
     if (s->desc[0])
         s->desc[0] = toupper((unsigned char)s->desc[0]);
-    for (char *p = s->desc + 1; *p; p++)
+    for (p = s->desc + 1; *p; p++)
         *p = tolower((unsigned char)*p);
     *act = '\0';
 
-    strcpy(s->code, c);
+    // resto del string
+    strncpy(s->code, c, sizeof(s->code) - 1);
+    s->code[sizeof(s->code) - 1] = '\0';
+
     return true;
 }
 
@@ -242,7 +264,7 @@ void mostrarIpcAp(const void *elem)
 void mostrarAperturas(const void *elem)
 {
     aperturas *a = (aperturas *)elem;
-    printf("%15s, %8.2f, %8.2f, %10.2f\n", a->periodo, a->indice, a->variacion, a->montoAjustado);
+    printf("%15s, %8.2f, %6.1f %%, $%10.2f\n", a->periodo, a->indice, a->variacion, a->montoAjustado);
 }
 
 void mostrarTotales(const Vector *vA, float montoInicial)

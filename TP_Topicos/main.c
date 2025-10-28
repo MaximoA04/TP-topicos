@@ -8,7 +8,7 @@
 
 int main()
 {
-    // setlocale(LC_ALL, "es_AR.UTF-8");
+    //setlocale(LC_ALL, "es_AR.UTF-8");
     int code = 0;
 
     /// Primera Parte: IPC Divisiones
@@ -34,8 +34,8 @@ int main()
     }
     fclose(f);
 
-    printf("\n--- Datos de IPC Divisiones ---\n\n");
-    vectorMostrar(&v,mostrarIpcDiv);
+    //printf("\n--- Datos de IPC Divisiones ---\n\n");
+    //vectorMostrar(&v,mostrarIpcDiv);
 
     actualizarMontoDivisiones(&v);
     calcularIPCPromedio(&v);

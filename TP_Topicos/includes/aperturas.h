@@ -10,14 +10,14 @@
 #include <ctype.h>
 
 
-#define CODE_AP_TAM 21
-#define DESC_AP_TAM 61
-#define CLASIFICADOR_AP_TAM 35
-#define PERIODO_AP_TAM 11
-#define INDICE_IPC_AP_TAM 17
-#define V_M_IPC_AP_TAM 17
-#define V_A_IPC_AP_TAM 17
-#define REGION_AP_TAM 10
+#define CODE_AP_TAM 20
+#define DESC_AP_TAM 63
+#define CLASIFICADOR_AP_TAM 40
+#define PERIODO_AP_TAM 20
+#define INDICE_IPC_AP_TAM 20
+#define V_M_IPC_AP_TAM 20
+#define V_A_IPC_AP_TAM 20
+#define REGION_AP_TAM 12
 
 typedef struct {
 	char code[CODE_AP_TAM];

@@ -7,7 +7,7 @@
 
 //archivos
 #define DIVISIONES "./otros/serie_ipc_divisiones.csv"
-#define APERTURAS "./otros/serie_ipc_aperturas.csv"
+#define APERTURAS "./otros/serie_ipc_aperturas1.csv"
 #define ALQUILERES "./otros/alquileres.dat"
 
 // Tamaños

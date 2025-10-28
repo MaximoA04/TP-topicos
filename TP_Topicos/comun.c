@@ -66,14 +66,14 @@ void selecRegion(void *f)
 
 bool formatearFecha1(char *c)
 {
-    char meses[12][11] = {
-        "Enero", "Febrero", "Marzo", "Abril",
-        "Mayo", "Junio", "Julio", "Agosto",
-        "Septiembre", "Octubre", "Noviembre", "Diciembre"};
-
     if (!c || strlen(c) < 6)
         return false;
 
+    // si ya tiene guion y let, asumimos que esta bien
+    if (strchr(c, '-') && strlen(c) > 6)
+        return true;
+
+    // formato YYYYMM
     char mesReg[3] = {0};
     strncpy(mesReg, c + 4, 2);
     int mes = atoi(mesReg);
@@ -83,6 +83,13 @@ bool formatearFecha1(char *c)
 
     char anio[5] = {0};
     strncpy(anio, c, 4);
+    anio[4] = '\0';
+
+    char meses[12][11] = {
+        "Enero", "Febrero", "Marzo", "Abril",
+        "Mayo", "Junio", "Julio", "Agosto",
+        "Septiembre", "Octubre", "Noviembre", "Diciembre"
+    };
 
     size_t lenMes = strlen(meses[mes]);
     memcpy(c, meses[mes], lenMes);
@@ -98,19 +105,23 @@ bool formatearFecha2(char *c)
     if (!c || strlen(c) < 6)
         return false;
 
-    char anio[5];
-    strncpy(anio, c, 4);
-    anio[4] = '\0';
+    // si es YYYY-MM-DD
+    if (strlen(c) == 10 && c[4] == '-' && c[7] == '-')
+        return true;
 
-    char mesReg[3];
-    strncpy(mesReg, c + 4, 2);
-    mesReg[2] = '\0';
-    int mes = atoi(mesReg);
-    if (mes < 1 || mes > 12)
-        return false;
+    // si es YYYYMM
+    if (strlen(c) == 6) {
+        char anio[5], mes[3];
+        strncpy(anio, c, 4); anio[4] = '\0';
+        strncpy(mes, c + 4, 2); mes[2] = '\0';
+        int imes = atoi(mes);
+        if (imes < 1 || imes > 12)
+            return false;
 
-    snprintf(c, 11, "%04d-%02d-01", atoi(anio), mes);
-    c[10] = '\0';
-    return true;
+        snprintf(c, 11, "%s-%02d-01", anio, imes);
+        c[10] = '\0';
+        return true;
+    }
+
+    return false;
 }
-

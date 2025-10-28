@@ -94,8 +94,6 @@ void calcularIPCPromedio(Vector *v)
     vectorCrear(&divClasificadas, sizeof(divisiones));
 
     clasificarDivisiones(&divClasificadas, v, filtrarDivisiones);
-    printf("\n--- IPC Divisiones por tipo ---\n\n");
-    vectorMostrar(&divClasificadas, mostrarDivisiones);
     calcularPromedios(&divClasificadas, mostrarIndice, "Nacional");
 
     vectorDestruir(&divClasificadas);
@@ -287,7 +285,7 @@ bool formatearDivisiones(char *c, void *elem)
     if (act)
         *act = '\0';
 
-    /// periodo
+    // periodo
     act = strrchr(c, ';');
     if (!act)
         return false;
@@ -299,7 +297,7 @@ bool formatearDivisiones(char *c, void *elem)
         return false;
     *act = '\0';
 
-    /// region
+    // region
     act = strrchr(c, ';');
     if (!act)
         return false;
@@ -307,7 +305,7 @@ bool formatearDivisiones(char *c, void *elem)
     s->region[sizeof(s->region) - 1] = '\0';
     *act = '\0';
 
-    /// v_a_ipc
+    // v_a_ipc
     act = strrchr(c, ';');
     if (!act)
         return false;
@@ -315,7 +313,7 @@ bool formatearDivisiones(char *c, void *elem)
     s->v_a_ipc[sizeof(s->v_a_ipc) - 1] = '\0';
     *act = '\0';
 
-    /// v_m_ipc
+    // v_m_ipc
     act = strrchr(c, ';');
     if (!act)
         return false;
@@ -323,19 +321,18 @@ bool formatearDivisiones(char *c, void *elem)
     s->v_m_ipc[sizeof(s->v_m_ipc) - 1] = '\0';
     *act = '\0';
 
-    /// indice_ipc
+    // indice_ipc
     act = strrchr(c, ';');
     if (!act)
         return false;
     strncpy(s->indice_ipc, act + 1, sizeof(s->indice_ipc) - 1);
     s->indice_ipc[sizeof(s->indice_ipc) - 1] = '\0';
-    // reemplazar ',' por '.'
     for (char *q = s->indice_ipc; *q; q++)
         if (*q == ',')
             *q = '.';
     *act = '\0';
 
-    /// clasificador
+    // clasificador
     act = strrchr(c, ';');
     if (!act)
         return false;
@@ -343,7 +340,7 @@ bool formatearDivisiones(char *c, void *elem)
     s->clasificador[sizeof(s->clasificador) - 1] = '\0';
     *act = '\0';
 
-    /// desc
+    // desc
     act = strrchr(c, ';');
     if (!act)
         return false;
@@ -356,7 +353,6 @@ bool formatearDivisiones(char *c, void *elem)
         *q = tolower((unsigned char)*q);
     *act = '\0';
 
-    /// code
     strncpy(s->code, c, sizeof(s->code) - 1);
     s->code[sizeof(s->code) - 1] = '\0';
 

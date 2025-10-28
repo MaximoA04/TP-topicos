@@ -388,3 +388,60 @@
 	"includes/vector.h"
 	"includes/comun.h"
 
+1761682268 source:c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp_topicos\aperturas.c
+	"includes/aperturas.h"
+	"includes/vector.h"
+	"includes/comun.h"
+
+1761677652 c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp_topicos\includes\aperturas.h
+	<stdlib.h>
+	<stddef.h>
+	<stdbool.h>
+	"string.h"
+	"vector.h"
+	"comun.h"
+	<ctype.h>
+
+1761492870 c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp_topicos\includes\vector.h
+	<stdbool.h>
+	<stddef.h>
+	<stdio.h>
+
+1761682636 c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp_topicos\includes\comun.h
+	<stdlib.h>
+	"string.h"
+	"vector.h"
+
+1761682447 source:c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp_topicos\comun.c
+	"includes/comun.h"
+
+1761680212 source:c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp_topicos\divisiones.c
+	<stdlib.h>
+	<stddef.h>
+	<stdbool.h>
+	<ctype.h>
+	"includes/divisiones.h"
+	"includes/vector.h"
+	"includes/comun.h"
+
+1761492870 c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp_topicos\includes\divisiones.h
+	"string.h"
+	"comun.h"
+	"vector.h"
+
+1761682484 source:c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp_topicos\main.c
+	<stddef.h>
+	<stdio.h>
+	<locale.h>
+	"includes/divisiones.h"
+	"includes/aperturas.h"
+	"includes/vector.h"
+
+1761492870 source:c:\users\pc_casa1\documents\maximo\.unlam\topicos-de-programacion\tp_topicos\vector.c
+	<stdlib.h>
+	<stddef.h>
+	<string.h>
+	<time.h>
+	"includes/vector.h"
+	"includes/comun.h"
+
